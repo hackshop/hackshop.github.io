@@ -1,0 +1,19 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+  background-color: #4B2853;
+}
+
+.navbar-header .hidden {
+    display: none;
+    padding : 5px;
+}
